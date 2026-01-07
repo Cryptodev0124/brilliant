@@ -5,7 +5,7 @@ import React from 'react';
 
 
 export const metadata = {
-  title: "Seasoned Crypto-Dev",
+  title: "Brilliant",
 };
 
 const MainHome = () => {

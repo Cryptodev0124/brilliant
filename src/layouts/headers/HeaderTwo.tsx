@@ -6,7 +6,7 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 
 import logo_white from "@/assets/img/logo/logo-2.png";
-import logo_black from "@/assets/img/logo/logo-black.png";
+import logo_black from "@/assets/img/logo/logo-2.png";
 
 
 const HeaderTwo = () => {
@@ -106,7 +106,7 @@ const HeaderTwo = () => {
               <div className="col-xl-2 col-lg-5 col-md-4 col-6">
                 <div className="tp-header-2__logo">
                   <Link className="logo-white" href="/"><Image src={logo_white} alt="image-here" /></Link>
-                  <Link className="logo-black" href="/"><Image src={logo_black} alt="image-here" /></Link>
+                  {/* <Link className="logo-black" href="/"><Image src={logo_black} alt="image-here" /></Link> */}
                 </div>
               </div>
               <div className="col-xl-7 d-none d-xl-block">
@@ -117,7 +117,7 @@ const HeaderTwo = () => {
 
 
                       <li data-menuanchor="cases" className="active">
-                        <a href="#cases">Cases</a>
+                        <a href="#cases">Home</a>
                       </li>
                       <li data-menuanchor="about">
                         <a href="#about">About</a>
@@ -162,7 +162,7 @@ const HeaderTwo = () => {
                           stroke-inecap="round" stroke-inejoin="round" />
                       </svg>
                     </span>
-                    <a href="mailto:diego@mail.com">diego@mail.com</a>
+                    <a href="mailto:aldjomega@gmail.com">aldjomega@gmail.com</a>
                   </div>
                   <div className="tp-header-2__bar parallax-wrap" onClick={() => setShowCanvas(true)}>
                     <button className="tp-menu-bar parallax-element tp-offcanvas-open-btn">

@@ -6,8 +6,8 @@ import NavMenu from './menu/NavMenu';
 import React, { useEffect, useState } from 'react';
 import Offcanvas2 from '@/components/common/Offcanvas2';
 
-import light_logo from "@/assets/img/logo/logo.png";
-import dark_logo from "@/assets/img/logo/logo-black.png";
+import light_logo from "@/assets/img/logo/logo-3.png";
+import dark_logo from "@/assets/img/logo/logo-3.png";
 import UseThemeCheck from '@/hooks/UseThemeCheck';
 
 
@@ -72,9 +72,9 @@ const HeaderOne = () => {
                   <Link className="logo-white" href="/">
                     <Image style={{ width: '115px', height: 'auto' }} src={light_logo} alt="diego-image" />
                   </Link>
-                  <Link className="logo-black" href="/">
+                  {/* <Link className="logo-black" href="/">
                     <Image style={{ width: '115px', height: 'auto' }} src={dark_logo} alt="diego-image" />
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
               <div className="col-xl-6 col-lg-7 d-none d-lg-block">
@@ -88,7 +88,7 @@ const HeaderOne = () => {
               <div className="col-xl-4 col-lg-3 col-md-7 col-6">
                 <div className="tp-header-right d-flex align-items-center justify-content-end">
 
-                  <div className="tp-theme-toggle">
+                  {/* <div className="tp-theme-toggle">
                     <label className="tp-theme-toggle-main themepure-theme-toggle" htmlFor="this-s">
 
                       <span className=" tp-theme-toggle-light">
@@ -131,7 +131,7 @@ const HeaderOne = () => {
 
 
                     </label>
-                  </div>
+                  </div> */}
 
                   <div className="tp-header-cv ml-10 d-none d-md-block">
                     <a className="tp-header-cv-btn" href="assets/img/cv/my-cv.pdf">
@@ -171,9 +171,9 @@ const HeaderOne = () => {
                   <Link className="logo-white" href="/">
                     <Image style={{ width: '115px', height: 'auto' }} src={light_logo} alt="diego-image" />
                   </Link>
-                  <Link className="logo-black" href="/">
+                  {/* <Link className="logo-black" href="/">
                     <Image style={{ width: '115px', height: 'auto' }} src={dark_logo} alt="diego-image" />
-                  </Link>
+                  </Link> */}
                 </div>
 
               </div>

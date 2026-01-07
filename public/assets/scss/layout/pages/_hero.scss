@@ -508,7 +508,7 @@
             }
         }
         &-3{
-            padding-top: 215px;
+            padding-top: 150px;
             padding-bottom: 100px;
             @media #{$xl}{
                 padding-top: 170px;
@@ -528,8 +528,8 @@
             }
         }
         &-5{
-            padding-top: 200px;
-            padding-bottom: 80px;
+            padding-top: 150px;
+            padding-bottom: 100px;
             @media #{$xl}{
                 padding-top: 150px;
             }
@@ -641,6 +641,61 @@
             transform: rotate(114.63deg);
         }
         &-5{
+            position: absolute;
+            top: 17%;
+            left: 34%;
+            display: inline-block;
+            height: 600px;
+            width: 600px;
+            border-radius: 600px;
+            @include gradient((0deg, rgba(255, 255, 255, 0.00) 0%, rgba(255, 255, 255, 0.06) 100%));
+            z-index: -1;
+        }
+        &-6{
+            position: absolute;
+            top: 17%;
+            left: 34%;
+            display: inline-block;
+            height: 600px;
+            width: 600px;
+            border-radius: 600px;
+            @include gradient((0deg, rgba(255, 255, 255, 0.00) 0%, rgba(255, 255, 255, 0.06) 100%));
+            z-index: -1;
+        }
+        &-7{
+            position: absolute;
+            top: 17%;
+            left: 34%;
+            display: inline-block;
+            height: 600px;
+            width: 600px;
+            border-radius: 600px;
+            @include gradient((0deg, rgba(255, 255, 255, 0.00) 0%, rgba(255, 255, 255, 0.06) 100%));
+            z-index: -1;
+        }
+        &-8{
+            position: absolute;
+            top: 17%;
+            left: 34%;
+            display: inline-block;
+            height: 600px;
+            width: 600px;
+            border-radius: 600px;
+            @include gradient((0deg, rgba(255, 255, 255, 0.00) 0%, rgba(255, 255, 255, 0.06) 100%));
+            z-index: -1;
+        }
+        &-9{
+            position: absolute;
+            top: 17%;
+            left: 34%;
+            display: inline-block;
+            height: 600px;
+            width: 600px;
+            border-radius: 600px;
+            @include gradient((0deg, rgba(255, 255, 255, 0.00) 0%, rgba(255, 255, 255, 0.06) 100%));
+            z-index: -1;
+        }
+        &-10{
             position: absolute;
             top: 17%;
             left: 34%;
@@ -1090,8 +1145,8 @@
                 text-transform: uppercase;
                 font-family: var(--tp-ff-kufam);
                 color: rgba(255, 255, 255, 0.2);
-                padding: 40px 0;
-                padding-bottom: 30px;
+                padding: 25px 0;
+                padding-bottom: 15px;
                 display: flex;
                 align-items: flex-start;
                 width: 100%;
@@ -1280,7 +1335,7 @@
             }
         }
        &-wrap{
-        margin-bottom: 90px;
+        margin-bottom: 50px;
         padding-left: 100px;
         padding-right: 100px;
         @media #{$xl}{
@@ -1409,6 +1464,51 @@
                 }
             }
             &.bg-5{
+                background: rgba(255, 0, 64, 0.1);
+                border: 1px solid rgba(255, 51, 102, 0.14);
+                & .tp-hero-2__design-exp-skill-info{
+                    & i{
+                        color: #FF3366;
+                    }
+                }
+            }
+            &.bg-6{
+                background: rgba(255, 0, 64, 0.1);
+                border: 1px solid rgba(255, 51, 102, 0.14);
+                & .tp-hero-2__design-exp-skill-info{
+                    & i{
+                        color: #FF3366;
+                    }
+                }
+            }
+            &.bg-7{
+                background: rgba(255, 0, 64, 0.1);
+                border: 1px solid rgba(255, 51, 102, 0.14);
+                & .tp-hero-2__design-exp-skill-info{
+                    & i{
+                        color: #FF3366;
+                    }
+                }
+            }
+            &.bg-8{
+                background: rgba(255, 0, 64, 0.1);
+                border: 1px solid rgba(255, 51, 102, 0.14);
+                & .tp-hero-2__design-exp-skill-info{
+                    & i{
+                        color: #FF3366;
+                    }
+                }
+            }
+            &.bg-9{
+                background: rgba(255, 0, 64, 0.1);
+                border: 1px solid rgba(255, 51, 102, 0.14);
+                & .tp-hero-2__design-exp-skill-info{
+                    & i{
+                        color: #FF3366;
+                    }
+                }
+            }
+            &.bg-10{
                 background: rgba(255, 0, 64, 0.1);
                 border: 1px solid rgba(255, 51, 102, 0.14);
                 & .tp-hero-2__design-exp-skill-info{

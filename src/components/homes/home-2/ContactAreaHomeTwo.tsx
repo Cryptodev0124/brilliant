@@ -33,7 +33,7 @@ const ContactAreaHomeTwo = () => {
                     <div className="parallax-element">
                       <a href="mailto:diego@mail.com">
                         <Image src={icon_1} alt="image-here" />
-                        <span>diego@mail.com</span>
+                        <span>aldjomega@gmail.com</span>
                       </a>
                     </div>
                   </div>
@@ -41,7 +41,7 @@ const ContactAreaHomeTwo = () => {
                     <div className="parallax-element">
                       <a href="tel:+351810342440">
                         <Image src={icon_2} alt="image-here" />
-                        <span>+(351) 810 342 440</span>
+                        <span>+(380) 506 259 107</span>
                       </a>
                     </div>
                   </div>

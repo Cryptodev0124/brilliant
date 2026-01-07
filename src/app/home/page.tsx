@@ -5,7 +5,7 @@ import HomeOne from '@/components/homes/home';
 
 
 export const metadata = {
-  title: "Home One - Diego - Personal Creative Portfolio & Resume Next js Template",
+  title: "Sarraf - Blockchain - Personal Creative Portfolio & Resume Next js Template",
 };
 
 

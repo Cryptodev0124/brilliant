@@ -186,7 +186,7 @@ const SkillAreaHomeOne = () => {
                 <nav>
                   <div className="nav nav-tabs tp-marker-tab" id="nav-tab" role="tablist">
                     {skill_data.map((item, i) =>
-                      <button key={i} className={`nav-link ${i === 1 ? 'active' : ''}`} id={`nav-${item.tab_id}-tab`} data-bs-toggle="tab"
+                      <button key={i} className={`nav-link ${i === 1 ? '' : 'active'}`} id={`nav-${item.tab_id}-tab`} data-bs-toggle="tab"
                         data-bs-target={`#nav-${item.tab_id}`} type="button" role="tab" aria-controls={`nav-${item.tab_id}`}
                         aria-selected={`${i === 0 ? 'false' : 'true'}`} tabIndex={-1}> {item.tab_id}
                       </button>
@@ -203,7 +203,7 @@ const SkillAreaHomeOne = () => {
               <div className="tab-content" id="nav-tabContent">
 
                 {skill_data.map((item, i) =>
-                  <div key={i} className={`tab-pane fade ${i === 1 ? 'show active' : ''}`}
+                  <div key={i} className={`tab-pane fade ${i === 1 ? '' : 'show active'}`}
                     id={`nav-${item.tab_id}`} role="tabpanel" aria-labelledby={`nav-${item.tab_id}-tab`} tabIndex={0}>
                     <div className="tp-skill-tab-content tp-skill-radius">
                       <div className="row" style={{justifyContent: "center"}}>

@@ -12,12 +12,13 @@ import AwardAreaHomeOne from "./AwardAreaHomeOne";
 import TestimonialAreaHomeOne from "./TestimonialAreaHomeOne";
 import PriceAreaHomeOne from "./PriceAreaHomeOne";
 import FooterOne from "@/layouts/footers/FooterOne";
+import HeaderTwo from "@/layouts/headers/HeaderTwo";
 
 
 const HomeOne = () => {
   return (
     <>
-      <HeaderOne />
+      <HeaderTwo />
       <div
         id="smooth-wrapper"
         className="tp-page-wrapper theme-bg"

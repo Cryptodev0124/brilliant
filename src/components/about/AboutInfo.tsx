@@ -39,8 +39,8 @@ const AboutInfo = () => {
               <div className="ab-info__text">
 
                 <div>
-                  I'm Diego <span className="line"></span> a self though & self learned designer
-                  based in USA. I started as a financial planner & social
+                  I'm Sarraf <span className="line"></span> a self though & self learned Developer
+                  based in Ukraine. I started as a financial planner & social
                   media marketer, but now I do mix of everything from
 
                   {info_data.map((item, index) =>

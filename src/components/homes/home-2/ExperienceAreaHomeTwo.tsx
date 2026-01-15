@@ -2,11 +2,16 @@ import React from 'react';
 import Image, { StaticImageData } from "next/image";
 
 import start_icon from "@/assets/img/services/shape/services-shape-3.png";
-import skill_icon_1 from "@/assets/img/skill/figma-sm.png";
-import skill_icon_2 from "@/assets/img/skill/photoshop-sm.png";
-import skill_icon_3 from "@/assets/img/skill/xd-sm.png";
-import skill_icon_4 from "@/assets/img/skill/sketch-sm.png";
-import skill_icon_5 from "@/assets/img/skill/in-sm.png";
+import skill_icon_1 from "@/assets/img/skill/javascript.png";
+import skill_icon_2 from "@/assets/img/skill/typescript-sm.png";
+import skill_icon_3 from "@/assets/img/skill/react-sm.png";
+import skill_icon_4 from "@/assets/img/skill/next.png";
+import skill_icon_5 from "@/assets/img/skill/nodejs.png";
+import skill_icon_6 from "@/assets/img/skill/express-js.png";
+import skill_icon_7 from "@/assets/img/skill/python-sm.png";
+import skill_icon_8 from "@/assets/img/skill/mongo.png";
+import skill_icon_9 from "@/assets/img/skill/docker.png";
+import skill_icon_10 from "@/assets/img/skill/aws.png";
 
 
 interface DataType {
@@ -52,16 +57,16 @@ const expreience_content: DataType = {
     },
   ],
   skill_data: [
-    { id: 1, img: skill_icon_2, name: "JavaScript", percent: "95%" },
-    { id: 2, img: skill_icon_1, name: "TypeScript", percent: "90%" },
+    { id: 1, img: skill_icon_1, name: "JavaScript", percent: "95%" },
+    { id: 2, img: skill_icon_2, name: "TypeScript", percent: "90%" },
     { id: 3, img: skill_icon_3, name: "React", percent: "94%" },
     { id: 4, img: skill_icon_4, name: "Next.js", percent: "88%" },
     { id: 5, img: skill_icon_5, name: "Node.js", percent: "92%" },
-    { id: 6, img: skill_icon_1, name: "Express", percent: "85%" },
-    { id: 7, img: skill_icon_2, name: "MongoDB", percent: "80%" },
-    { id: 8, img: skill_icon_3, name: "PostgreSQL", percent: "78%" },
-    { id: 9, img: skill_icon_4, name: "Docker", percent: "82%" },
-    { id: 10, img: skill_icon_5, name: "AWS", percent: "76%" },
+    { id: 6, img: skill_icon_6, name: "Express", percent: "85%" },
+    { id: 7, img: skill_icon_7, name: "Python", percent: "90%" },
+    { id: 8, img: skill_icon_8, name: "MongoDB", percent: "98%" },
+    { id: 9, img: skill_icon_9, name: "Docker", percent: "82%" },
+    { id: 10, img: skill_icon_10, name: "AWS", percent: "76%" },
   ],
 }
 const { expreience_data, skill_data } = expreience_content

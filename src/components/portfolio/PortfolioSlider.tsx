@@ -2,13 +2,23 @@
 import Image from 'next/image';
 import Slider from 'react-slick';
 import React, { useEffect } from 'react';
-import slider_img_1 from "@/assets/img/portfolio/port-inner-1.jpg";
-import slider_img_2 from "@/assets/img/portfolio/port-inner-2.jpg";
-import slider_img_3 from "@/assets/img/portfolio/port-inner-3.jpg";
+import slider_img_1 from "@/assets/img/portfolio/2/portfolio-3.png";
+import slider_img_2 from "@/assets/img/portfolio/2/portfolio-4.png";
+import slider_img_3 from "@/assets/img/portfolio/2/portfolio-5.png";
+import slider_img_4 from "@/assets/img/portfolio/2/portfolio-6.png";
+import slider_img_5 from "@/assets/img/portfolio/2/portfolio-7.png";
+import slider_img_6 from "@/assets/img/portfolio/2/portfolio-8.png";
+import slider_img_7 from "@/assets/img/portfolio/2/portfolio-9.png";
+import slider_img_8 from "@/assets/img/portfolio/2/portfolio-10.png";
+import slider_img_9 from "@/assets/img/portfolio/2/portfolio-11.png";
+import slider_img_10 from "@/assets/img/portfolio/2/portfolio-12.png";
+import slider_img_11 from "@/assets/img/portfolio/2/portfolio-13.png";
 
 const slider_images = [
   slider_img_1, slider_img_2, slider_img_3,
-  slider_img_1, slider_img_2, slider_img_3,
+  slider_img_4, slider_img_5, slider_img_6,
+  slider_img_7, slider_img_8, slider_img_9,
+  slider_img_10, slider_img_11
 ];
 
 const setting = {
@@ -70,7 +80,7 @@ const PortfolioSlider = () => {
               <div className="porfolio-inner__overlay">
                 <div className="porfolio-inner__text-1">
                   <h4 className="porfolio-inner__slider-title tp_title_anim">
-                    Award-Winning Projects <br /> Design & Dev.
+                    Award-Winning Projects
                   </h4>
                 </div>
                 {React.createElement(

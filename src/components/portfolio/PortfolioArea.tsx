@@ -117,7 +117,8 @@ const PortfolioArea = () => {
               <div className="tp-portfolio-item-wrapper">
                 {blog_data_1.map((item, index) => (
                   <div key={index} className="tp-portfolio-item mb-70">
-                    <Link href="/portfolio-details">
+                    {/* <Link href="/portfolio-details"> */}
+                    <Link href="#">
                       <div className={`tp-portfolio-thumb img-${item.id} w-img fix`}>
                         <div className="tp-portfolio-thumb-img include-bg d-none"
                           style={{ backgroundImage: `url(${item.bg_img})`}}></div>

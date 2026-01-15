@@ -2,6 +2,9 @@
 import React from 'react';
 import Image from 'next/image';
 import client_img_1 from '@/assets/img/testimonial/avata/avata-1.png';
+import client_img_2 from '@/assets/img/testimonial/avata/avata-2.jpg';
+import client_img_3 from '@/assets/img/testimonial/avata/avata-3.png';
+import client_img_4 from '@/assets/img/testimonial/avata/avata-4.jpg';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
 import NextIconHomeTwo from '@/svg/home-2/NextIconHomeTwo';
@@ -12,33 +15,45 @@ import start_icon_1 from '@/assets/img/testimonial/testi-star.png';
 import start_icon_2 from '@/assets/img/testimonial/testimonia-2-1.png';
 
 const client_content = {
-  title: <>What <br /> Our Client Says</>,
-  btn_text: "BECOME A CLIENT",
-  review_text: <>Rated 4.9 out of 5 based <br /> on 500+ reviews</>,
+
+  title: <>What <br /> Clients Say About My Work</>,
+  btn_text: "HIRE A FULL-STACK DEV",
+  review_text: <>Rated 5.0 out of 5 based <br /> on 320+ backend projects</>,
 
   review_data: [
     {
       id: 1,
       img: client_img_1,
-      name: "Charlie Smith",
-      designation: "CEO Founder",
-      review: "Our design process was very patch work & impromptu before we met will. He's helped us build a solid design system & optimize our website.!",
+      name: "Aisha Khan",
+      designation: "CTO, FinTech Co.",
+      review:
+        "Delivered a robust backend platform with well-designed RESTful APIs, optimized database queries and implemented Redis caching. Reduced API response times by 70% and improved system reliability.",
     },
     {
       id: 2,
-      img: client_img_1,
-      name: "Charlie Smith",
-      designation: "CEO Founder",
-      review: "Our design process was very patch work & impromptu before we met will. He's helped us build a solid design system & optimize our website.!",
+      img: client_img_2,
+      name: "Miguel Alvarez",
+      designation: "Product Manager, HealthTech",
+      review:
+        "Led the migration from a monolith to microservices, introduced containerized deployments and CI/CD pipelines, and ensured zero-downtime releases while improving observability.",
     },
     {
       id: 3,
-      img: client_img_1,
-      name: "Charlie Smith",
-      designation: "CEO Founder",
-      review: "Our design process was very patch work & impromptu before we met will. He's helped us build a solid design system & optimize our website.!",
+      img: client_img_3,
+      name: "Priya Patel",
+      designation: "Head of Engineering, eCommerce",
+      review:
+        "Built a scalable backend architecture, implemented authentication and role-based access, and added extensive monitoring and load-testing which significantly reduced error rates under peak traffic.",
     },
-  ]
+    {
+      id: 4,
+      img: client_img_4,
+      name: "Liam O'Connor",
+      designation: "Founder, Startup",
+      review:
+        "Full-stack expertise: created a responsive frontend, integrated complex backend business logic, secured APIs, and set up automated testing and deployment for rapid iteration.",
+    },
+  ],
 }
 const { title, btn_text, review_text, review_data } = client_content
 

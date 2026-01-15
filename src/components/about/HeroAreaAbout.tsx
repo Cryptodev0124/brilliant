@@ -6,7 +6,7 @@ import Image from "next/image";
 import about_shape_1 from "@/assets/img/hero/hero-shape-2-1.png";
 import about_signature from "@/assets/img/hero/ab-signature.jpg";
 import about_circle from "@/assets/img/hero/ab-circle-img.png";
-import about_img from "@/assets/img/hero/ab-hero-1.jpg";
+import about_img from "@/assets/img/hero/about-1.png";
 import { scroller } from 'react-scroll';
 
 
@@ -51,10 +51,10 @@ const HeroAreaAbout = () => {
           <div className="row">
             <div className="col-xl-4 col-lg-5">
               <div className="ab-hero__title-box">
-                <h3 className="ab-hero__title tp-char-animation">I' m Diego Luna</h3>
+                <h3 className="ab-hero__title tp-char-animation">I'm Sarraf Babaiev</h3>
               </div>
               <div className="ab-hero__btn-box">
-                <a className="tp-btn-border-sm" href="assets/img/cv/my-cv.pdf">
+                <a className="tp-btn-border-sm" href="assets/img/cv/SarrafBabaievResume.pdf">
                   Download CV
                   <span>
                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none"

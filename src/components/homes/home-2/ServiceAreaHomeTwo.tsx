@@ -83,7 +83,7 @@ const ServiceAreaHomeTwo = () => {
                 <div className="tp-hero-2__service-accordion">
                   <span className="tp-hero-2__service-title">
                     <Image className="tp-zoom-in-out" src={service_start} alt="image-here" />
-                    OUR SERVICES
+                    MY SERVICES
                   </span>
 
                   <div className="accordion" id="accordionExample">

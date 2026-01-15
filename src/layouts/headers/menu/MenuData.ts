@@ -40,41 +40,41 @@ const menu_data: DataType[] = [
   {
     id: 2,
     title: "Services",
-    link: "#services",
-    has_dropdown: true,
-    sub_menus: [
-      { link: "/service", title: "Service" },
-      { link: "/service-details", title: "Service Details" },
-    ],
+    link: "/service",
+    has_dropdown: false,
+    // sub_menus: [
+    //   { link: "/service", title: "Service" },
+    //   { link: "/service-details", title: "Service Details" },
+    // ],
   },
 
   {
     id: 3,
     title: "About me",
-    link: "#about",
+    link: "/about",
     has_dropdown: false,
   },
   {
     id: 4,
     title: "Projects",
-    link: "#projects",
-    has_dropdown: true,
-    sub_menus: [
-      { link: "/portfolio", title: "Portfolio" },
-      { link: "/portfolio-details", title: "Portfolio Details" },
-    ],
+    link: "/portfolio",
+    has_dropdown: false,
+    // sub_menus: [
+    //   { link: "/portfolio", title: "Portfolio" },
+    //   { link: "/portfolio-details", title: "Portfolio Details" },
+    // ],
   },
   {
     id: 5,
-    title: "Skills",
-    link: "#skills",
-    has_dropdown: true,
-    sub_menus: [
-      { link: "/blog", title: "Blog List" },
-      { link: "/blog-sidebar", title: "Blog Sidebar" },
-      { link: "/blog-details", title: "Blog Details" },
-      { link: "/blog-details-2", title: "Blog Details 02" },
-    ],
+    title: "Blogs",
+    link: "/blog",
+    has_dropdown: false,
+    // sub_menus: [
+    //   { link: "/blog", title: "Blog List" },
+    //   { link: "/blog-sidebar", title: "Blog Sidebar" },
+    //   { link: "/blog-details", title: "Blog Details" },
+    //   { link: "/blog-details-2", title: "Blog Details 02" },
+    // ],
   },
   {
     id: 6,

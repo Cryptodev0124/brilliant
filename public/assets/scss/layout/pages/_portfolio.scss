@@ -279,7 +279,7 @@
     &-meta-2{
         margin-bottom: 11px;
         & span{
-            color: #FFF;
+            color: #4135e5;
             font-size: 12px;
             font-weight: 700;
             line-height: 1;
@@ -287,7 +287,7 @@
             @extend %ff-dmsans;
             display: inline-block;
             border-radius: 30px;
-            border: 1.5px solid rgba(255, 255, 255, 0.24);
+            border: 1.5px solid rgba(79, 8, 247, 0.24);
             padding: 6px 19px;
             @extend %transition;
 
@@ -303,7 +303,7 @@
         }
     }
     &-title-2{
-        color: #FFF;
+        color: #4135e5;
         @extend %ff-dmsans;
         font-size: 30px;
         letter-spacing: -0.3px;

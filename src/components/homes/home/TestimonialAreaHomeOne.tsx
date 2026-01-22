@@ -262,11 +262,7 @@ const TestimonialAreaHomeOne = ({ style }: any) => {
                     </div>
                   ))
                 )}
-
-
-
-                <div className="tp-testimonial-thumb-slider">
-
+                {/* <div className="tp-testimonial-thumb-slider">
                   {React.createElement(
                     Slider as any,
                     {
@@ -295,7 +291,7 @@ const TestimonialAreaHomeOne = ({ style }: any) => {
                   )}
 
 
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

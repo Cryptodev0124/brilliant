@@ -1,10 +1,16 @@
 'use client';
 import React from 'react';
 import Image, { StaticImageData } from 'next/image'
-import slider_img_1 from "@/assets/img/services/slider/services-slider-1.jpg";
-import slider_img_2 from "@/assets/img/services/slider/services-slider-2.jpg";
-import slider_img_3 from "@/assets/img/services/slider/services-slider-3.jpg";
-import slider_img_4 from "@/assets/img/services/slider/services-slider-4.jpg";
+import slider_img_1 from "@/assets/img/services/slider/portfolio-1.png";
+import slider_img_2 from "@/assets/img/services/slider/portfolio-2.png";
+import slider_img_3 from "@/assets/img/services/slider/portfolio-3.png";
+import slider_img_4 from "@/assets/img/services/slider/portfolio-4.png";
+import slider_img_5 from "@/assets/img/services/slider/portfolio-5.png";
+import slider_img_6 from "@/assets/img/services/slider/portfolio-6.png";
+import slider_img_7 from "@/assets/img/services/slider/portfolio-7.png";
+import slider_img_8 from "@/assets/img/services/slider/portfolio-8.png";
+import slider_img_9 from "@/assets/img/services/slider/portfolio-9.png";
+import slider_img_10 from "@/assets/img/services/slider/portfolio-10.png";
 
 import Slider from "react-slick";
 
@@ -27,30 +33,30 @@ const hero_content: DataType = {
     {
       id: 1,
       delay: ".3s",
-      title: "Over 40 Cryptocurrrency projects Built"
+      title: "Full Stack developer for 10+ years"
     },
     {
       id: 2,
       delay: ".5s",
-      title: "Blockchain developer for 4+ years",
+      title: "Over 70 Web sites Built",
     },
-    {
-      id: 3,
-      delay: ".7s",
-      title: "UI/UX Designer, Envato",
-    },
+    // {
+    //   id: 3,
+    //   delay: ".7s",
+    //   title: "UI/UX Designer, Envato",
+    // },
   ],
   slider_images_1: [
     slider_img_1, slider_img_2,
-    slider_img_1, slider_img_2,
-    slider_img_1, slider_img_2,
-    slider_img_1, slider_img_2,
+    slider_img_3, slider_img_4,
+    slider_img_5, slider_img_6, 
+    slider_img_7, slider_img_8, 
+    slider_img_9, slider_img_10
   ],
   slider_images_2: [
-    slider_img_3, slider_img_4,
-    slider_img_3, slider_img_4,
-    slider_img_3, slider_img_4,
-    slider_img_3, slider_img_4,
+    slider_img_6, slider_img_7,
+    slider_img_8, slider_img_9,
+    slider_img_10
   ]
 }
 
@@ -123,7 +129,7 @@ const SeviceHeroArea = () => {
             <div className="col-xl-6 col-lg-6">
               <div className="sv-inner__slider-main">
                 <div className="row">
-                  <div className="col-xl-6 col-lg-6 col-md-6">
+                  <div className="">
                     <div className="sv-inner__slider-wrapper">
                       {React.createElement(
                         Slider as any,
@@ -133,13 +139,13 @@ const SeviceHeroArea = () => {
                         },
                         slider_images_1.map((item, index) => (
                           <div key={index} className="sv-inner__slider-item">
-                            <Image src={item} alt="image-here" />
+                            <Image src={item} alt="image-here" style={{height: '75%'}} />
                           </div>
                         ))
                       )}
                     </div>
                   </div>
-                  <div className="col-xl-6 col-lg-6 col-md-6">
+                  {/* <div className="col-xl-6 col-lg-6 col-md-6">
                     <div className="sv-inner__slider-wrapper">
                       {React.createElement(
                         Slider as any,
@@ -154,7 +160,7 @@ const SeviceHeroArea = () => {
                         ))
                       )}
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
 

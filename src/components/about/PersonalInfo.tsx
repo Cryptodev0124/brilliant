@@ -1,7 +1,8 @@
 'use client';
 import Image from "next/image";
-
+import mail from "@/assets/img/about/mail.png";
 import whatsap from "@/assets/img/about/whatsap.png";
+import telegram from "@/assets/img/about/telegram.png";
 import shape_1 from "@/assets/img/services/shape/services-shape-1.png";
 import shape_2 from "@/assets/img/services/shape/services-shape-2.png"; 
 
@@ -33,71 +34,69 @@ interface DataType {
 const personal_content: DataType = {
   subtitle: 'Personal Info',
   title: 'Perceived end knowledge certainly day sweetness why cordially.',
-  email: "example@gmail.com",
-  phone: "+491 234 5678",
+  email: "aldjomega@gmail.com",
+  phone: "+380 50 625 9107",
   skillsets_data: [
     {
       id: 1,
-      title: "Figma",
-      percent: 90
+      title: "ReactJS",
+      percent: 92
     },
     {
       id: 2,
-      title: "Sketch",
-      percent: 82
+      title: "NextJS",
+      percent: 87
     },
     {
       id: 3,
-      title: "Photoshop",
-      percent: 65
+      title: "NodeJS",
+      percent: 90
     },
     {
       id: 4,
-      title: "Invision",
-      percent: 58
+      title: "ExpressJS",
+      percent: 85
     }
   ],
   experience_data: [
     {
       id: 1,
-      time: "2022 - Present",
-      designation: "UI/UX Lead Designer",
-      company: "Amazon INC",
+      time: "2020 - 2025",
+      designation: "Senior Full-Stack Developer",
+      company: "4IRE",
     },
     {
       id: 2,
-      time: "2018 - 2022",
-      designation: "Product Lead Designer",
-      company: "Amazon INC",
+      time: "2017 - 2020",
+      designation: "Full-Stack Engineer",
+      company: "IT Smart Solutions",
     },
     {
       id: 3,
-      time: "2016 - 2018",
-      designation: "Graphic Designer",
-      company: "Amazon INC",
+      time: "2014 - 2017",
+      designation: "Software Developer",
+      company: "Exoft",
     }
-
   ],
   education_data: [
     {
       id: 1,
-      time: "2014 - 2016",
-      designation: "Stanford University",
-      collage: "of California.",
+      time: "2008 - 2013",
+      designation: "Bachelor of Science in Software Engineering",
+      collage: "Ivan Franko National University of Lviv",
     },
-    {
-      id: 2,
-      time: "2012 - 2014",
-      designation: "Specialization Course.",
-      collage: "MIT University",
-    },
-    {
-      id: 3,
-      time: "2009 - 2012",
-      designation: "Level High School.",
-      collage: "San Fransisco",
-    }
-
+    // {
+    //   id: 2,
+    //   time: "2012 - 2014",
+    //   designation: "Specialization Course.",
+    //   collage: "MIT University",
+    // },
+    // {
+    //   id: 3,
+    //   time: "2009 - 2012",
+    //   designation: "Level High School.",
+    //   collage: "San Fransisco",
+    // }
   ]
 }
 
@@ -136,9 +135,10 @@ const PersonalInfo = () => {
                         {subtitle}
                       </h4>
                       <p>{title}</p>
-                      <a href={`mailto:${email}`}>{email}</a>
+                      <a href={`mailto:${email}`}><Image src={mail} alt="image-here" />{email}</a>
                       <a href={`tel:${phone}`}><span>
                         <Image src={whatsap} alt="image-here" /></span>{phone}</a>
+                      <a href="https://t.me/blockchainassisto"><span><Image src={telegram} alt="image-here" /> https://t.me/blockchainassisto</span></a>
                     </div> 
 
                     <div className="tp-services-capsule-item-wrapper">
@@ -146,31 +146,31 @@ const PersonalInfo = () => {
                         <span className="tp-services-capsule-item" style={{ backgroundColor: "#00CC97" }}>Frontend</span>
                       </p>
                       <p data-tp-throwable-el="">
-                        <span className="tp-services-capsule-item" style={{ backgroundColor: "#FF759C" }}>Phototyping</span>
+                        <span className="tp-services-capsule-item" style={{ backgroundColor: "#FF759C" }}>TypeScript</span>
                       </p>
                       <p data-tp-throwable-el="">
-                        <span className="tp-services-capsule-item" style={{ backgroundColor: "#FFDB59", color: "#121212" }}>Design solutions</span>
-                      </p>
-                      <p data-tp-throwable-el="">
-                        <span className="tp-services-capsule-item" style={{ backgroundColor: "#FFDB59", color: "#121212" }}>Consulting</span>
-                      </p>
-                      <p data-tp-throwable-el="">
-                        <span className="tp-services-capsule-item" style={{ backgroundColor: "#00CC97" }}>Brand strategy</span>
+                        <span className="tp-services-capsule-item" style={{ backgroundColor: "#FFDB59", color: "#121212" }}>Backend</span>
                       </p>
                       <p data-tp-throwable-el="">
                         <span className="tp-services-capsule-item" style={{ backgroundColor: "#FFDB59", color: "#121212" }}>Consulting</span>
                       </p>
                       <p data-tp-throwable-el="">
-                        <span className="tp-services-capsule-item" style={{ backgroundColor: "#00CC97" }}>Brand strategy</span>
+                        <span className="tp-services-capsule-item" style={{ backgroundColor: "#00CC97" }}>React</span>
                       </p>
                       <p data-tp-throwable-el="">
-                        <span className="tp-services-capsule-item" style={{ backgroundColor: "#19B3F1" }}>UI/UX Design</span>
+                        <span className="tp-services-capsule-item" style={{ backgroundColor: "#FFDB59", color: "#121212" }}>NextJS</span>
                       </p>
                       <p data-tp-throwable-el="">
-                        <span className="tp-services-capsule-item" style={{ backgroundColor: "#FF759C" }}>Design Audit</span>
+                        <span className="tp-services-capsule-item" style={{ backgroundColor: "#00CC97" }}>NodeJS</span>
                       </p>
                       <p data-tp-throwable-el="">
-                        <span className="tp-services-capsule-item" style={{ backgroundColor: "#FFDB59", color: "#121212" }}>Testing</span>
+                        <span className="tp-services-capsule-item" style={{ backgroundColor: "#19B3F1" }}>ExpressJS</span>
+                      </p>
+                      <p data-tp-throwable-el="">
+                        <span className="tp-services-capsule-item" style={{ backgroundColor: "#FF759C" }}>MongoDB</span>
+                      </p>
+                      <p data-tp-throwable-el="">
+                        <span className="tp-services-capsule-item" style={{ backgroundColor: "#FFDB59", color: "#121212" }}>API Integration</span>
                       </p>
                       <p data-tp-throwable-el="">
                         <span className="">
@@ -273,7 +273,7 @@ const PersonalInfo = () => {
 
                   {education_data.map((item, index) => (
                     <div key={index} className="ab-personal-info__exprience-box d-flex align-items-start ">
-                      <span className="ab-personal-info__exprience-length">{item.time}</span>
+                      <span className="ab-personal-info__exprience-length" style={{width: '100px'}}>{item.time}</span>
                       <div className="ab-personal-info__exprience-content">
                         <h4 className="ab-personal-info__exprience-title">{item.designation}</h4>
                         <span>{item.collage}</span>

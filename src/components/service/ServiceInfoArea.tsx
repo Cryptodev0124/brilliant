@@ -70,7 +70,11 @@ const service_info_content: DataType = {
       icon: <ServiceBrandingIcon />,
       title: "Front-End Development",
     },
-
+    {
+      id: 5,
+      icon: <StarIcon />,
+      title: "Back-End Development",
+    },
 
   ],
 }
@@ -83,7 +87,7 @@ const ServiceInfoArea = () => {
     <>
       <div className="sv-inner__info-area pt-120 pb-90 black-bg-3">
         <div className="container">
-          <div className="row justify-content-center">
+          {/* <div className="row justify-content-center">
             <div className="col-xl-9">
               <div className="sv-inner__info-title-box mb-90">
                 <h4 className="sv-inner__info-title tp_title_anim">
@@ -91,10 +95,10 @@ const ServiceInfoArea = () => {
                 </h4>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="row justify-content-center">
             <div className="col-xl-9">
-              <div className="row mb-100">
+              {/* <div className="row mb-100">
                 <div className="col-xl-4">
                   <div className="sv-inner__info-service">
                     <h4 className="sv-inner__left-title">
@@ -127,23 +131,22 @@ const ServiceInfoArea = () => {
                     ))}
                   </div>
                 </div>
-              </div>
-              <div className="row">
-                <div className="col-xl-4">
+              </div> */}
+              <div className="row justify-content-center">
+                <div className="col-xl-6" style={{paddingBottom: '60px', display: 'flex', justifyContent: 'center'}}>
                   <div className="sv-inner__info-service">
                     <h4 className="sv-inner__left-title">
-                      <span>
+                      {/* <span>
                         <StarIcon />
-                      </span> {' '}
+                      </span> {' '} */}
                       Development
                     </h4>
                   </div>
                 </div>
-                <div className="col-xl-8">
-
-                  <div className="sv-inner__service-category-wrap">
+                <div className="col-xl-8 justify-content-center">
+                  <div className="sv-inner__service-category-wrap justify-content-center">
                     {development_data.map((item, i) => (
-                      <div key={i} className="sv-inner__service-category">
+                      <div key={i} className="sv-inner__service-category justify-content-center">
                         <a className="d-flex align-items-center justify-content-between" href="#">
                           <div className="sv-inner__service-category-content">
                             <span>

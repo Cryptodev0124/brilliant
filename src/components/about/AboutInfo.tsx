@@ -10,20 +10,20 @@ interface DataType {
 
 const info_data: DataType[] = [
   {
-    title: "Product Design",
-    bg_img: "/assets/img/about/ab-1.png",
+    title: "Full-Stack Developer",
+    bg_img: "/assets/img/about/portfolio-1.jpg",
   },
   {
-    title: "Photography",
-    bg_img: "/assets/img/about/ab-2.png",
+    title: "Frontend Developer",
+    bg_img: "/assets/img/about/portfolio-2.jpg",
   },
   {
-    title: "Web Design",
-    bg_img: "/assets/img/about/ab-3.png",
+    title: "Backend Developer",
+    bg_img: "/assets/img/about/portfolio-3.jpg",
   },
   {
-    title: "Graphic Design",
-    bg_img: "/assets/img/about/ab-4.png",
+    title: "DevOps / Cloud Engineer",
+    bg_img: "/assets/img/about/portfolio-4.jpg",
   }
 ]
 
@@ -39,19 +39,26 @@ const AboutInfo = () => {
               <div className="ab-info__text">
 
                 <div>
-                  I'm Sarraf <span className="line"></span> a self though & self learned Developer
-                  based in Ukraine. I started as a financial planner & social
-                  media marketer, but now I do mix of everything from
+                  I'm Sarraf <span className="line"></span> a self-taught full-stack developer
+                  based in Ukraine. Initially working as a financial planner and social media marketer, I now work in a variety of roles, including <span>{}</span>
 
-                  {info_data.map((item, index) =>
+                  {info_data.map((item, index) => (
                     <React.Fragment key={index}>
-                      <a className="tp-hover-reveal-item" href="#" onMouseMove={(event) => handleMouseMove(event, '.tp-hover-reveal-item')}>
+                      <a
+                        className="tp-hover-reveal-item"
+                        href="#"
+                        onMouseMove={(event) => handleMouseMove(event, '.tp-hover-reveal-item')}
+                      >
                         {item.title}
                         <span></span>
-                        <div className="tp-hover-reveal-bg" style={{ backgroundImage: `url(${item.bg_img})` }}></div>
-                      </a>, {' '}
+                        <div
+                          className="tp-hover-reveal-bg"
+                          style={{ backgroundImage: `url(${item.bg_img})` }}
+                        ></div>
+                      </a>
+                      {', '}
                     </React.Fragment>
-                  )}
+                  ))}
                 </div>
 
               </div>

@@ -1756,23 +1756,23 @@
     }
     &__title{
         font-weight: 500;
-        font-size: 168px;
+        font-size: 110px;
         line-height: 1;
         letter-spacing: -0.03em;
         color: var(--tp-common-white);
         font-family: var(--tp-ff-didoneright);
         margin-bottom: 40px;
         @media #{$xl}{
-            font-size: 140px;
-        }
-        @media #{$lg}{
-            font-size: 125px;
-        }
-        @media #{$md}{
             font-size: 100px;
         }
+        @media #{$lg}{
+            font-size: 85px;
+        }
+        @media #{$md}{
+            font-size: 70px;
+        }
         @media #{$xs}{
-            font-size: 50px;
+            font-size: 30px;
         }
     }
     &__big-img{
@@ -1790,7 +1790,7 @@
     }
     &__circle{
         position: absolute;
-        bottom: -50px;
+        top: -50px;
         right: -60px;
         border: 10px solid #0F183E;
         border-radius: 50%;

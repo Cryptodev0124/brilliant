@@ -17,7 +17,7 @@ const Service = () => {
         <div id="smooth-content">
           <main>
             <SeviceHeroArea />
-            <ServiceAreaHomeThree style={true} />
+            {/* <ServiceAreaHomeThree style={true} /> */}
             <ServiceInfoArea />
             <TestimonialAreaHomeOne style={true} />
             <PriceAreaHomeOne style={true} />

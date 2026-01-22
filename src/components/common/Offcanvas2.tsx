@@ -81,8 +81,8 @@ const Offcanvas2 = ({ showCanvas, setShowCanvas }: any) => {
               <h3 className="tp-offcanvas-contact-title-2">Information</h3>
 
               <ul>
-                <li><a href="https://t.me/cryptodevteam">telegram</a></li>
-                <li><a href="mailto:nikolagrcic833@gmail.com">mail</a></li>
+                <li><a href="https://t.me/blockchainassisto">telegram</a></li>
+                <li><a href="mailto:aldjomega@gmail.com">mail</a></li>
                 {/* <li><a href="#">Avenue de Roma 158b, Lisboa</a></li> */}
               </ul>
             </div>

@@ -131,9 +131,9 @@ const HeaderTwo = () => {
                       <li data-menuanchor="skills">
                         <a href="#skills">Skills</a>
                       </li>
-                      <li data-menuanchor="testimonial">
+                      {/* <li data-menuanchor="testimonial">
                         <a href="#testimonial">Testimonial</a>
-                      </li>
+                      </li> */}
                       <li data-menuanchor="contact">
                         <a href="#contact">Contact</a>
                       </li>

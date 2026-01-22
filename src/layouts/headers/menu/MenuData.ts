@@ -64,18 +64,18 @@ const menu_data: DataType[] = [
     //   { link: "/portfolio-details", title: "Portfolio Details" },
     // ],
   },
-  {
-    id: 5,
-    title: "Blogs",
-    link: "/blog",
-    has_dropdown: false,
-    // sub_menus: [
-    //   { link: "/blog", title: "Blog List" },
-    //   { link: "/blog-sidebar", title: "Blog Sidebar" },
-    //   { link: "/blog-details", title: "Blog Details" },
-    //   { link: "/blog-details-2", title: "Blog Details 02" },
-    // ],
-  },
+  // {
+  //   id: 5,
+  //   title: "Blogs",
+  //   link: "/blog",
+  //   has_dropdown: false,
+  //   // sub_menus: [
+  //   //   { link: "/blog", title: "Blog List" },
+  //   //   { link: "/blog-sidebar", title: "Blog Sidebar" },
+  //   //   { link: "/blog-details", title: "Blog Details" },
+  //   //   { link: "/blog-details-2", title: "Blog Details 02" },
+  //   // ],
+  // },
   {
     id: 6,
     title: "Contact",

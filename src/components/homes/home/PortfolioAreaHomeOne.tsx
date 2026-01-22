@@ -21,7 +21,7 @@ const portfolio_content = {
       title: 'Meme Coin & Launchpad Development',
       subtitle: 'Token create',
       displayId: '02',
-      link: 'https://www.fiverr.com/atanasov8/create-cryptocurrency-token-meme-coin-presale-and-ico-page?context_referrer=seller_page&ref_ctx_id=c54c773c4b3544e7aecc99da5424b6af&pckg_id=1&pos=1&seller_online=true&imp_id=94e98157-77f1-436d-a584-56b8dabb7da5'
+      link: '#'
     },
     {
       id: 3,
@@ -30,7 +30,7 @@ const portfolio_content = {
       title: "Crypto Trading Bots Development",
       subtitle: 'Trading bots',
       displayId: '03',
-      link: 'https://www.fiverr.com/atanasov8/build-telegram-mini-game-like-hamster-kombat-moonbix-doghouse-and-tapswap?context_referrer=seller_page&ref_ctx_id=c54c773c4b3544e7aecc99da5424b6af&pckg_id=1&pos=3&seller_online=true&imp_id=c4a84bd7-0db1-4c31-b05b-c4c2542cc7cf'
+      link: '#'
     }
   ]
 }
@@ -58,7 +58,7 @@ const PortfolioAreaHomeOne = () => {
                 </div>
                 <div className="tp-portfolio-item-wrapper">
                   <div className="tp-portfolio-item mb-70">
-                    <Link target="_blank" href="https://www.fiverr.com/atanasov8/build-dex-and-defi-like-bridge-staking-exchange-website?context_referrer=seller_page&ref_ctx_id=c54c773c4b3544e7aecc99da5424b6af&pckg_id=1&pos=2&seller_online=true&imp_id=f1d534f6-308a-4e53-9d95-31d952e007f5">
+                    <Link target="_blank" href="#">
                       <div className="tp-portfolio-thumb img-1 w-img fix ">
                         <div className="tp-portfolio-thumb-img include-bg d-none"
                           style={{ backgroundImage: 'url(/assets/img/portfolio/portfolio-2.jpg)' }}></div>
@@ -82,7 +82,7 @@ const PortfolioAreaHomeOne = () => {
                     </Link>
                   </div>
                 </div>
-                <div className="tp-portfolio-more tp-hover-btn-wrapper tp-btn-bounce-2 d-none d-lg-block">
+                {/* <div className="tp-portfolio-more tp-hover-btn-wrapper tp-btn-bounce-2 d-none d-lg-block">
                   <Link href="/portfolio-details"
                     className="tp-hover-btn tp-hover-btn-item tp-btn-circle-2 d-flex align-items-center justify-content-center flex-column">
                     <span className="tp-btn-circle-text-2">
@@ -93,7 +93,7 @@ const PortfolioAreaHomeOne = () => {
                     </span>
                     <i className="tp-btn-circle-dot"></i>
                   </Link>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="col-xl-6 col-lg-6">
